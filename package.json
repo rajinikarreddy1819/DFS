@@ -1,0 +1,24 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "A project using Hardhat and React",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "hardhat": "hardhat run scripts/deploy.js",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.4"
+  },
+  "dependencies": {
+    "client": "^0.0.1",
+    "create-react-app": "^5.0.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
